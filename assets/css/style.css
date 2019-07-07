@@ -1,60 +1,75 @@
-body {
-    margin: 0 0 0 0;
-    background-color: #1F7A8C;
-    
+.is-long{
+    padding-bottom: 10rem;
 }
 
-.container{
-    position: relative;
-    min-height: 100vh;
-    
-    
+.section.is-primary {
+    background-color: #2589BD;
 }
 
 
-
-.row{
-        background-color:#E1E5F2;
-        margin-top: 2%;
-        border-radius: 5px;
-       
+.hero, .navbar-menu{
+    background-color: white;
 }
 
-h1{
-    text-align: center;
-}
-
-header{
-    background-color: #BFDBF7;
-    font-size: 48px;
-    margin: 0 0 0 0;
-    text-align: center;
-}
-
-thead{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.table {
-    background-color: #FFFFFF;
-    text-align: center;
-    border-radius: 12px;
-    
-    
-}
-
-.foot{
+a{
     padding: 2%;
+}
+
+.box-section{
+    background-color: #187795;
+}
+
+.skills{
+    margin-top: -7rem;
+}
+
+.other-info{
+    margin-bottom: -7rem;
+}
+
+.is-bottom{
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #293347;
+}
+.image-projects:hover .overlay {
+    opacity: 1;
+}
+
+
+.footer{
+    background-color: #474747;
+}
+
+.recent-projects{
+    background-color: #086375;
+    position: relative;
+}
+
+.overlay-text{
+    color: white;
+    font-size: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 1%;
 }
 
-button{
-    border-radius: 12px;
-    background-color: #BFDBF7;
-}
+.footer-content{
+    margin-top: 8%;
 
-.error {
-    color: red;
 }

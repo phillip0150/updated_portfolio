@@ -16,12 +16,4 @@ $( document ).ready(function() {
 
     });
     
-  
-  $(".image-projects").hover(function(){
-    //On Hover - Works on ios
-    $(".overlay").show();
-  }, function(){
-    //Hover Off - Hover off doesn't seem to work on iOS
-    $(".overlay").show();
- });
 });

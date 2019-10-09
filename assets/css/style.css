@@ -19,9 +19,9 @@ a{
     background-color: #187795;
 }
 
-.skills{
+/* .skills{
     margin-top: -7rem;
-}
+} */
 
 .other-info{
     margin-bottom: -7rem;
@@ -73,10 +73,28 @@ a{
 }
 
 .footer-content{
-    margin-top: 8%;
+    margin-top: 2%;
     
 }
 
 .box {
     height: 100%;
+}
+
+.skillsicon {
+ margin-left: 10%;
+}
+
+.svgskills {
+    margin-left: 14%;
+    margin-top: 2%;
+
+}
+
+.j {
+    margin-bottom: 5%;
+}
+
+.b {
+    margin-bottom: 0.5%;
 }
